@@ -1,6 +1,5 @@
 # AricGridEx
 
-clone the project.
-run npm install.
-run npm start.
-
+1. clone the project.
+2. run npm install.
+3. run npm start (make sure the server is running)
