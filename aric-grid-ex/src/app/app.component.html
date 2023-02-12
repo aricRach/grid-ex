@@ -1,0 +1,12 @@
+
+<div *ngIf="boxes.length === 0; else ex">
+  <h1>oops! there are no elements to show</h1>
+  <p>make sure your server is running</p>
+</div>
+
+<ng-template #ex>
+  <div class="ex-container">
+    <app-menu [states]="states"></app-menu>
+    <app-grid [boxes]="boxes"></app-grid>
+  </div>
+</ng-template>
